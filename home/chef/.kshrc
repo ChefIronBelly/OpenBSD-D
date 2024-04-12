@@ -3,8 +3,8 @@
 #
 
 # use vim if it's installed, vi otherwise
-case "$(command -v vim)" in
-  */vim) VIM=vim ;;
+case "$(command -v nvim)" in
+  */vim) VIM=nvim ;;
   *)     VIM=vi  ;;
 esac
 
@@ -53,13 +53,13 @@ alias upd='doas pkg_add -Uu'
 #alias upg='doas pkg upgrade'
 alias search='doas pkg_info -Q'
 alias clean='doas pkg_delete -a'
-alias syupd='doas syspatch'
+alias syupg='doas syspatch'
 #alias freeupg='doas freebsd-update install'
 
 # REBOOT/SHUTDOWN
-alias reboot='reboot'
-alias poweroff='poweroff'
-alias shutdown='shutdown -ph now'
+alias reboot='doas reboot'
+alias poweroff='doas poweroff'
+alias shutdown='doas shutdown -ph now'
 
 # Space on drive
 alias disk='du -h | sort -n -r |more'
