@@ -58,7 +58,7 @@ alias syupg='doas syspatch'
 
 # REBOOT/SHUTDOWN
 alias reboot='doas reboot'
-alias poweroff='doas poweroff'
+alias poweroff='doas shutdown -ph now'
 alias shutdown='doas shutdown -ph now'
 
 # Space on drive
