@@ -80,8 +80,9 @@ alias umount='doas umount /mnt/$1'
 alias view='imlib2_view'
 alias grab='imlib2_grab'
 alias stime='doas ntpd -dnq -p pool.ntp.org'
-#suspalias rnet='doas /etc/init.d/networking restart'
-alias mp3='youtube-dl -x --embed-thumbnail --audio-format mp3'
+#alias rnet='doas /etc/init.d/networking restart'
+alias mp3='yt-dlp -x --audio-format mp3'
+alias wet='curl https://wttr.in/det'
 
 PS1=""
  case `id -u` in

@@ -1,4 +1,4 @@
-# OS: OpenBSD 7.5
+# OS: OpenBSD 7.6
 
 https://www.openbsd.org
 
