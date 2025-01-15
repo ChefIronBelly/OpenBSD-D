@@ -1,0 +1,3 @@
+apmd_flags=-A
+sshd_flags=NO
+ntpd_flags="-s"
