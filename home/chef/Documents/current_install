@@ -1,0 +1,21 @@
+# OpenBSD-7.7-current
+
+# start w latest OpenBSD-7.7 snapshot
+
+default install GPT and using UFS default sizes
+
+# pkg_add install git firefox geany mc mpv yt-dlp mpg123 liberation-fonts
+scrot neofetch
+
+****
+as user
+
+$ mkdir ~/Source & cd Source
+$ git clone https://github.com/ChefIronBelly/OpenBSD-D.git
+$ cp user files /home to system
+
+$ cd Source /dwm /dmenu /st and sudo make clean install
+$ doas mkdir /mnt/usb
+$ doas sndioctl output.level=0.8
+
+# 250609
