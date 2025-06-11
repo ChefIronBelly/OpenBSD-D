@@ -12,10 +12,9 @@ as user
 
 $ mkdir ~/Source & cd Source
 $ git clone https://github.com/ChefIronBelly/OpenBSD-D.git
-$ cp user files /home to system
+cp user files and root files from /boot /etc /home to system
 
 $ cd Source /dwm /dmenu /st and sudo make clean install
 $ doas mkdir /mnt/usb
-$ doas sndioctl output.level=0.8
 
-# 250609
+# 250611
