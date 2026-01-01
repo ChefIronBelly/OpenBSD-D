@@ -1,4 +1,4 @@
-# OS: OpenBSD 7.7-current GENERIC.MP #704
+# OS: OpenBSD 7.8 GENERIC.MP
 
 https://www.openbsd.org
 
