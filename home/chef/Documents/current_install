@@ -1,11 +1,14 @@
-# OpenBSD-7.7-current
+# OpenBSD-7.8
 
-# start w latest OpenBSD-7.7 snapshot
+# start w latest OpenBSD-7.8 image
 
 default install GPT and using UFS default sizes
 
 # pkg_add install git firefox geany mc mpv yt-dlp mpg123 liberation-fonts
-scrot neofetch
+scrot fastfetch
+
+# echo permit persist :wheel > /etc/doas.conf
+logout
 
 ****
 as user
@@ -17,4 +20,4 @@ cp user files and root files from /boot /etc /home to system
 $ cd Source /dwm /dmenu /st and sudo make clean install
 $ doas mkdir /mnt/usb
 
-# 250611
+# 260101
