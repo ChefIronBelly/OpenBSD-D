@@ -1,10 +1,10 @@
-# OpenBSD-7.8
+# OpenBSD 7.8-current
 
-# start w latest OpenBSD-7.8 image
+# start w latest OpenBSD-7.8 current snapshot
 
 default install GPT and using UFS default sizes
 
-# pkg_add install git firefox geany mc mpv yt-dlp mpg123 liberation-fonts
+# pkg_add install github-cli git firefox geany mc mpv yt-dlp mpg123 liberation-fonts
 scrot fastfetch
 
 # echo permit persist :wheel > /etc/doas.conf
