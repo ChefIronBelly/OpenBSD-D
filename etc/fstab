@@ -1,0 +1,10 @@
+e329f0118941330d.b none swap sw
+e329f0118941330d.a / ffs rw 1 1
+e329f0118941330d.l /home ffs rw,nodev,nosuid 1 2
+e329f0118941330d.d /tmp ffs rw,nodev,nosuid 1 2
+e329f0118941330d.f /usr ffs rw,nodev 1 2
+e329f0118941330d.g /usr/X11R6 ffs rw,nodev 1 2
+e329f0118941330d.h /usr/local ffs rw,wxallowed,nodev 1 2
+e329f0118941330d.k /usr/obj ffs rw,nodev,nosuid 1 2
+e329f0118941330d.j /usr/src ffs rw,nodev,nosuid 1 2
+e329f0118941330d.e /var ffs rw,nodev,nosuid 1 2
